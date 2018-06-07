@@ -1,0 +1,16 @@
+go to root directory of project
+
+execute the following command (for activating the virtual environment(virtualenv) of python)
+	- source envx/Scripts/activate  (Use Gitbash if window's cmd doesn't work)
+
+now run the script chatapp.py(it creates server on the local machine(port 5000,default),the machine's IP can be seen by command - ipconfig)
+
+open browser,type URL http://(--IP--):5000
+
+
+*packages installed earlier
+	pip install virtualenv
+	virtualenv envx
+	source envx/Scripts/activate
+	pip install flask
+	pip install flask-socketio
